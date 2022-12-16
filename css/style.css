@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import 'media.css';
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+body {
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    width: 82%;
+}
+.main-header {
+    width: 42%;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 29%;
+}
+.main-header .head {
+    opacity: 0.6;
+}
+main {
+    display: flex;
+}
+.card {
+    height: 250px;
+    padding: 25px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow:     
+        2px 2px 2px 2px rgb(241, 244, 247),    
+        2px 2px 2px 2px rgb(241, 244, 247),    
+        2px 2px 2px 2px rgb(241, 244, 247),    
+        2px 2px 2px 2px rgb(241, 244, 247);
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 50%;
+}
+.card img {
+    position: absolute;
+    top: 65%;
+    right: 5%;
+}
+.super-card {
+    margin-top: 12%;
+    border-top: 4px solid hsl(180, 62%, 55%);
+ 
+}
+.team-card {
+    margin-top: 12%;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    width: 95%;
+}
+.karma-card {
+    margin-top: 12%;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    width: 95%;
+}
+.calc-card {
+    margin-top: 12%;
+    border-top: 4px solid hsl(212, 86%, 64%);
+}

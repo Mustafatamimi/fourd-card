@@ -1,0 +1,22 @@
+
+@media (max-width: 728px) {
+    body {
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-header {
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        text-align: left;
+        font-size: 14px;
+    }
+    main {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 100%;
+    }
+}
